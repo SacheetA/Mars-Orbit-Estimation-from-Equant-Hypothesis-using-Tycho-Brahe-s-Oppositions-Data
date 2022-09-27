@@ -6,7 +6,7 @@ if __name__ == "__main__":
 
     # Import oppositions data from the CSV file provided
     data = np.genfromtxt(
-        "../data/01_data_mars_opposition_updated.csv",
+        "01_data_mars_opposition_updated.csv",
         delimiter=",",
         skip_header=True,
         dtype="int",
